@@ -2,19 +2,16 @@
 Contributors: lmccart
 Tags: p5.js, p5, javascript, js, teaching, processing
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.2.3
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin embeds a live running p5.js sketch into a WordPress blog post or page.
+This plugin embeds a live running p5.js sketch into a WordPress blog. There are options to show or hide the associated code and to set the size of the sketch frame. You can see an example of it running [here](http://lauren-mccarthy.com/inmotion/2014/09/test-5/).
+
+[p5js.org](http://p5js.org): p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today’s web.
 
 == Description ==
-
-There are options to show or hide the associated code and to set the size of the sketch frame. You can see an example of it running [here](http://lauren-mccarthy.com/inmotion/2014/09/test-5/).
-
-[p5js.org](http://p5js.org): p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today's web.
-
 
 ####To include a p5 sketch:
 
@@ -48,4 +45,12 @@ To include external files (for example, an image via loadImage) you will need to
 2. Activate the plugin. See Description for instructions for use in posts.
 
 
+== Changelog ==
+
+= 0.1.1 =
+* Fixed jquery link to work for 0.4.
+
+
+= 0.1.2 =
+* Fixed issue with wordpress 4.2.3 causing errors.
 
