@@ -3,7 +3,7 @@
  * Plugin Name: p5.js Embedder
  * Plugin URI: https://github.com/lmccart/p5.js/wiki/wordpress-embedder
  * Description: A brief description of the Plugin.
- * Version: 0.1.2
+ * Version: 0.1.0
  * Author: Lauren McCarthy
  * Author URI: http://lauren-mccarthy.com
  * License: GPL2
@@ -24,7 +24,6 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-
 
 defined('ABSPATH') or die("No script kiddies please!");
 libxml_use_internal_errors(true);
